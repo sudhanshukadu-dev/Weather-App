@@ -1,13 +1,5 @@
 
-.center-screen {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-height: 100vh;
-    margin: 0;
-    transition: background-color 1s ease; /* Smooth transition for background color */
-    background-color: #F0F0F0; /* Default background */
-}
+
 .bagel-fat-one-regular {
     font-family: "Bagel Fat One", serif;
     font-weight: 400;

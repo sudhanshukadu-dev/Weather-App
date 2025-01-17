@@ -4,9 +4,9 @@ const getWeatherButton = document.getElementById('getWeather');
 const cityInput = document.getElementById('cityInput');
 const cityName = document.querySelector('h3');
 const temperature = document.querySelector('h1');
-const weatherDescription = document.querySelector('.card-text');
+const weatherDescription = document.querySelector('.cardIcon');
 const weatherIcon = document.getElementById('weatherIcon');
-const centerScreenDiv = document.querySelector('.center-screen');  // Accessing the div with the class 'center-screen'
+const centerScreenDiv = document.querySelector('.mainBox');  // Accessing the div with the class 'center-screen'
 
 // Function to map weather condition to an icon and background color
 function getCustomIcon(description) {
